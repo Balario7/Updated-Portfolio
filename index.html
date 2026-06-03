@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Balagugan S, a Computer Science and AI/ML student building intelligent, practical software."
+    />
+    <title>Balagugan S | AI/ML & Full-Stack Developer</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Balagugan S home">
+        <span class="brand-mark">B</span>
+        <span>Balagugan S</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a class="nav-cta" href="#contact">Let's talk <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-shell" id="home">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> Available for opportunities</p>
+          <h1>Building intelligent solutions for <span>real-world problems.</span></h1>
+          <p class="hero-text">
+            I'm Balagugan, a Computer Science and AI/ML student who turns ideas into
+            practical software, from precision agriculture to deep learning systems.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span>↓</span></a>
+            <a class="button button-ghost" href="Balagugan-S-Resume.pdf" target="_blank">View resume <span>↗</span></a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://github.com/Balario7" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/bala-gugan-s-276846333/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="code-card">
+            <div class="code-topbar">
+              <div class="window-dots"><i></i><i></i><i></i></div>
+              <span>portfolio.py</span>
+              <small>AI + CODE</small>
+            </div>
+            <pre><code><b>class</b> <span>Developer</span>:
+  <b>def</b> <em>__init__</em>(self):
+    self.name = <q>"Balagugan S"</q>
+    self.focus = [
+      <q>"AI / ML"</q>,
+      <q>"Full-Stack"</q>,
+      <q>"Problem Solving"</q>
+    ]
+
+  <b>def</b> <em>build</em>(self, idea):
+    <b>return</b> idea.to_impact()</code></pre>
+            <div class="code-footer"><span>●</span> Ready to build</div>
+          </div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="floating-chip chip-one">Python</div>
+          <div class="floating-chip chip-two">React.js</div>
+          <div class="floating-chip chip-three">TensorFlow</div>
+        </div>
+      </section>
+
+      <section class="stats strip">
+        <div><strong>03</strong><span>Featured projects</span></div>
+        <div><strong>450+</strong><span>SkillRack problems</span></div>
+        <div><strong>20+</strong><span>LeetCode problems</span></div>
+        <div><strong>7.8</strong><span>Current CGPA</span></div>
+      </section>
+
+      <section class="about section-shell section-pad" id="about">
+        <div class="section-kicker reveal">01 / About</div>
+        <div class="about-grid">
+          <div class="section-heading reveal">
+            <h2>Curiosity in code.<br /><span>Purpose in every build.</span></h2>
+          </div>
+          <div class="about-copy reveal">
+            <p>
+              I am pursuing a B.E. in Computer Science and Engineering with a specialization
+              in Artificial Intelligence and Machine Learning at Sri Eshwar College of Engineering.
+            </p>
+            <p>
+              My work sits at the intersection of intelligent systems and useful experiences.
+              Whether I am training a predictive model or building a full-stack application,
+              I enjoy solving concrete problems with clean, thoughtful technology.
+            </p>
+            <div class="about-note">
+              <span>Currently exploring</span>
+              <strong>Applied AI, deep learning and robust web experiences.</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section-shell section-pad" id="projects">
+        <div class="section-kicker reveal">02 / Selected projects</div>
+        <div class="section-heading project-intro reveal">
+          <h2>Projects with a <span>practical pulse.</span></h2>
+          <p>Ideas shaped into working systems, with a focus on usefulness and impact.</p>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card featured reveal">
+            <div class="project-number">01</div>
+            <div class="project-content">
+              <p class="project-type">Machine learning / Agriculture</p>
+              <h3>Crop Yield Prediction System</h3>
+              <p>
+                A machine learning system that recommends suitable crops and predicts yield
+                using soil nutrients, rainfall, temperature, humidity and pH values.
+              </p>
+              <div class="tag-list">
+                <span>Python</span><span>Scikit-Learn</span><span>Pandas</span><span>Random Forest</span>
+              </div>
+            </div>
+            <div class="project-art crop-art" aria-hidden="true">
+              <div class="art-label">FIELD ANALYTICS</div>
+              <div class="chart-line"></div>
+              <div class="data-pill pill-a">NPK</div>
+              <div class="data-pill pill-b">pH</div>
+              <div class="data-pill pill-c">+92%</div>
+              <div class="field-row row-a"></div>
+              <div class="field-row row-b"></div>
+              <div class="field-row row-c"></div>
+              <div class="field-row row-d"></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-number">02</div>
+            <div class="project-content">
+              <p class="project-type">Deep learning / Healthcare</p>
+              <h3>Eye Disease Prediction</h3>
+              <p>
+                An AI-powered web application using a CNN to identify Cataract, Glaucoma and
+                Diabetic Retinopathy from uploaded eye images with confidence scores.
+              </p>
+              <div class="tag-list">
+                <span>Flask</span><span>TensorFlow</span><span>Keras</span><span>SQLite</span>
+              </div>
+            </div>
+            <div class="project-art eye-art" aria-hidden="true">
+              <div class="scan-line"></div>
+              <div class="eye-core"><div></div></div>
+              <small>CNN SCAN</small>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-number">03</div>
+            <div class="project-content">
+              <p class="project-type">Robotics / Smart farming</p>
+              <h3>Land Rover</h3>
+              <p>
+                A compact, cost-efficient rover that follows a fixed loop to monitor water
+                flow complications in irrigation systems for small and medium-scale farms.
+              </p>
+              <div class="tag-list">
+                <span>Robotics</span><span>Automation</span><span>IoT Concept</span>
+              </div>
+            </div>
+            <div class="project-art rover-art" aria-hidden="true">
+              <div class="rover-body"><i></i><i></i></div>
+              <div class="rover-path"></div>
+              <div class="signal s1"></div><div class="signal s2"></div>
+              <small>IRRIGATION LOOP</small>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="experience section-shell section-pad" id="experience">
+        <div class="section-kicker reveal">03 / Experience & learning</div>
+        <div class="experience-grid">
+          <div class="section-heading reveal">
+            <h2>Growing through <span>hands-on work.</span></h2>
+            <p>Building depth one real implementation at a time.</p>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <p class="timeline-date">Dec 2025</p>
+              <h3>Full Stack Intern</h3>
+              <h4>Educentro Pvt. Ltd.</h4>
+              <p>
+                Completed MERN stack training through hands-on full-stack applications.
+                Worked with REST APIs, authentication, MongoDB schemas, debugging and deployment.
+              </p>
+              <div class="tag-list"><span>MERN</span><span>REST APIs</span><span>Git</span><span>Vercel</span></div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <p class="timeline-date">2024 - 2028</p>
+              <h3>B.E. CSE (AI & ML)</h3>
+              <h4>Sri Eshwar College of Engineering</h4>
+              <p>Currently pursuing a focused undergraduate program with a CGPA of 7.8.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section-shell section-pad" id="skills">
+        <div class="section-kicker reveal">04 / Capabilities</div>
+        <div class="section-heading skills-intro reveal">
+          <h2>A toolkit for turning <span>ideas into outcomes.</span></h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <small>01</small>
+            <h3>Programming</h3>
+            <div class="skill-cloud"><span>C</span><span>C++</span><span>Python</span><span>Java</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <small>02</small>
+            <h3>Full-Stack</h3>
+            <div class="skill-cloud"><span>HTML</span><span>CSS</span><span>React.js</span><span>Express.js</span><span>Node.js</span><span>MongoDB</span><span>MySQL</span><span>PostgreSQL</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <small>03</small>
+            <h3>Data Science</h3>
+            <div class="skill-cloud"><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Seaborn</span><span>Scikit-Learn</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <small>04</small>
+            <h3>Tools & Design</h3>
+            <div class="skill-cloud"><span>Git</span><span>GitHub</span><span>Canva</span><span>Figma</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="proof strip">
+        <div class="proof-label">Also on my journey</div>
+        <div><strong>DHRUVA</strong><span>National paper presentation participant</span></div>
+        <div><strong>DEV-SPARK</strong><span>National IEEE hackathon participant</span></div>
+        <div><strong>02</strong><span>Udemy certifications completed</span></div>
+      </section>
+
+      <section class="contact section-shell section-pad" id="contact">
+        <div class="contact-panel reveal">
+          <div>
+            <p class="section-kicker">05 / Contact</p>
+            <h2>Have a problem worth <span>solving?</span></h2>
+            <p>I'm open to internships, collaborations and opportunities to build useful things.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:balagugan.s2024aiml@sece.ac.in">Start a conversation <span>↗</span></a>
+            <a class="contact-mail" href="mailto:balagugan.s2024aiml@sece.ac.in">balagugan.s2024aiml@sece.ac.in</a>
+            <a class="contact-mail" href="tel:+919345833306">+91 93458 33306</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <a class="brand" href="#home"><span class="brand-mark">B</span><span>Balagugan S</span></a>
+      <p>Designed and built with intention.</p>
+      <div>
+        <a href="https://leetcode.com/u/_Karthik_03_/" target="_blank" rel="noreferrer">LeetCode</a>
+        <a href="https://www.skillrack.com/faces/resume.xhtml?id=514643&key=94b55098591a68cb854d931280d1872ec501eeb3" target="_blank" rel="noreferrer">SkillRack</a>
+        <a href="https://github.com/Balario7" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </footer>
+  </body>
+</html>
